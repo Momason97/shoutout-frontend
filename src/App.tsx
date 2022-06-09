@@ -10,6 +10,7 @@ import Main from "./components/Main";
 import ToUserRoute from "./components/ToUserRoute";
 import Header from "./components/Header";
 import MeRoute from "./components/MeRoute";
+// Hello
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/user/:to" element={<ToUserRoute />} />
           <Route path="/me" element={<MeRoute />} />
+
           {/* <Route path="/gifs/search" element={<Main />} />
           <Route path="/gifs/:id/details" element={<Details />} />
           <Route path="/gifs/favorites" element={<Favorites />} /> */}
