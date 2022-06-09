@@ -1,0 +1,23 @@
+.ShoutOut .from-container {
+  display: flex;
+}
+
+.ShoutOut .from-img {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+.ShoutOut .shout-out-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.ShoutOut .votes-container {
+  display: flex;
+}
+
+.ShoutOut .votes-container button {
+  margin: 10px;
+}
