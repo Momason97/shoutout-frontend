@@ -17,8 +17,10 @@ const Header = () => {
         <>
           <p>Welcome {user?.displayName}</p>
           <button onClick={signOut}>Sign Out</button>
-          <img src={user.photoURL!}></img>
-          <p><Link to="/me">See my s/o's!</Link></p>
+          <img src={user.photoURL!} alt={"image"} />
+          <p>
+            <Link to="/me">See my s/o's!</Link>
+          </p>
         </>
       ) : (
         <button onClick={signInWithGoogle}>Sign In</button>

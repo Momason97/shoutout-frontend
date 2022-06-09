@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import {
   BrowserRouter as Router,
@@ -20,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/user/:to" element={<ToUserRoute />} />
-          <Route path="/me" element={<MeRoute/>} />
+          <Route path="/me" element={<MeRoute />} />
           {/* <Route path="/gifs/search" element={<Main />} />
           <Route path="/gifs/:id/details" element={<Details />} />
           <Route path="/gifs/favorites" element={<Favorites />} /> */}
