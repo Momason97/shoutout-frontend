@@ -17,7 +17,7 @@ const Header = () => {
         <>
           <p>Welcome {user?.displayName}</p>
           <button onClick={signOut}>Sign Out</button>
-          <img src={user.photoURL!} alt={"image"} />
+          <img src={user.photoURL!} alt={"option"} />
           <p>
             <Link to="/me">See my s/o's!</Link>
           </p>
